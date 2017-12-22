@@ -32,4 +32,5 @@ set guioptions-=L  "remove left-hand scroll bars from gvim
 set guioptions-=e  "remove graphical tabs from gvim
 set guifont=Fira_Code_Retina:h12:cANSI:qDRAFT
 
-let leader=','
+let mapleader = ","
+

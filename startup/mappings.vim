@@ -36,5 +36,5 @@ nmap <A-1> :NERDTreeToggle<CR>
 " Custom snippet commands (run from NORMAL mode)
 
 " Writes a markdown tag to the cursors position
-nnoremap <leader>mdt :-1read $HOME/Snips/Razor/MarkdownTag.txt<CR>1j
+nnoremap <leader>mdt :-1read $HOME\Snips\Razor\MarkdownTag.txt<CR>1j
 
