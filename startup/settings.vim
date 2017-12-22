@@ -12,6 +12,7 @@ let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
 let g:SuperTabDefaultCompletionTypeDiscovery = ["&omnifunc:<c-x><c-o>","&completefunc:<c-x><c-n>"]
 let g:SuperTabClosePreviewOnPopupClose = 1
 
+
 " NERDTree settings
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1

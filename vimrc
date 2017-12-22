@@ -54,3 +54,5 @@ endfunction
 autocmd GUIEnter * NERDTree " Open NERDTree upon open
 
 autocmd GUIEnter * simalt ~xl " maximize the window upon open
+
+autocmd GUIEnter * so $MYVIMRC
