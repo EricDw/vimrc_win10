@@ -36,5 +36,11 @@ nmap <A-1> :NERDTreeToggle<CR>
 " Custom snippet commands (run from NORMAL mode)
 
 " Writes a markdown tag to the cursors position
-nnoremap <leader>mdt :-1read $HOME\Snips\Razor\MarkdownTag.txt<CR>1j
+nnoremap <leader>mdt :-1read $HOME\vimfiles\Snips\Html\MarkdownTag.html<CR>1f<
+
+" Writes a header1 tag to the cursors position
+nnoremap <leader>ht1 :-1read $HOME\vimfiles\Snips\Html\CenterHeader1.html<CR>2f<
+
+" Writes a header2 tag to the cursors position
+nnoremap <leader>ht2 :-1read $HOME\vimfiles\Snips\Html\CenterHeader2.html<CR>2f<
 
