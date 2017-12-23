@@ -16,3 +16,9 @@
 [submodule "bundle/Base2Tone-vim"]
 	path = bundle/Base2Tone-vim
 	url = https://github.com/atelierbram/Base2Tone-vim.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
