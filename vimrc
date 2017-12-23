@@ -19,7 +19,7 @@ behave mswin " Tells vim to treat the mouse like a Windows mouse
 
 
 " Color Scheme
-colorscheme duotone-darkforest
+colorscheme Base2Tone_SpaceDark
 
 function MyDiff()
   let opt = '-a --binary '

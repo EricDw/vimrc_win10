@@ -13,3 +13,6 @@
 [submodule "bundle/vim-sensible"]
 	path = bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "bundle/Base2Tone-vim"]
+	path = bundle/Base2Tone-vim
+	url = https://github.com/atelierbram/Base2Tone-vim.git
