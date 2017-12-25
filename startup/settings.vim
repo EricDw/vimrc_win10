@@ -1,21 +1,27 @@
 
+" OmniCompletion
+set omnifunc=syntaxcomplete#Complete
+
+
 " Omnisharp settings
 
 let g:OmniSharp_server_type = 'roslyn'  
 let g:OmniSharp_prefer_global_sln = 1  
 let g:OmniSharp_timeout = 10
 
+" UltiSnips settings
+let g:UltiSnipsEnableSnipMate=1
 
 " Supertab settings
-let g:SuperTabDefaultCompletionType = 'context'
-let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
-let g:SuperTabDefaultCompletionTypeDiscovery = ["&omnifunc:<c-x><c-o>","&completefunc:<c-x><c-n>"]
-let g:SuperTabClosePreviewOnPopupClose = 1
+" let g:SuperTabDefaultCompletionType = 'context'
+" let g:SuperTabContextDefaultCompletionType = <c-x><c-o>
+" let g:SuperTabDefaultCompletionTypeDiscovery = ["&omnifunc:<c-x><c-o>","&completefunc:<c-x><c-n>"]
+" let g:SuperTabClosePreviewOnPopupClose = 1
 
 " UltiSnips
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+ let g:UltiSnipsExpandTrigger="<tab>"
+ let g:UltiSnipsJumpForwardTrigger="<tab>"
+ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 
 " NERDTree settings

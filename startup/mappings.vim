@@ -29,12 +29,14 @@ nnoremap <C-Tab> :tabnext<CR>
 nnoremap <C-S-Tab> :tabprevious<CR>
 noremap <C-Tab> :tabnext<CR>
 noremap <C-S-Tab> :tabprevious<CR>
-inoremap <C-Tab> :tabnext<CR>
-inoremap <C-S-Tab> :tabprevious<CR>
+inoremap <C-Tab> <Esc>:tabnext<CR>
+inoremap <C-S-Tab> <Esc>:tabprevious<CR>
 
 
 " ALT+1 toggles NerdTree on and off
 noremap <A-1> :NERDTreeToggle<CR>
+
+" UltiSnips mappings
 
 
 " Custom snippet commands (run from NORMAL mode)
