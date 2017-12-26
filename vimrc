@@ -19,7 +19,7 @@ behave mswin " Tells vim to treat the mouse like a Windows mouse
 
 
 " Color Scheme
-colorscheme Base2Tone_SpaceDark
+colorscheme phosphor
 
 " PowerShell file AutoCommands
 au BufNewFile,BufRead   *.ps1   set foldmethod=syntax

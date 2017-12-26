@@ -13,4 +13,6 @@ Session.vim
 # Auto-generated tag files
 tags
 
-/**/tags
+# bundle files should all contain submodules, therfore we ignore the bundle directory
+/bundle
+

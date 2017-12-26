@@ -13,10 +13,10 @@ let g:OmniSharp_timeout = 10
 let g:UltiSnipsEnableSnipMate=1
 
 " Supertab settings
-" let g:SuperTabDefaultCompletionType = 'context'
-" let g:SuperTabContextDefaultCompletionType = <c-x><c-o>
-" let g:SuperTabDefaultCompletionTypeDiscovery = ["&omnifunc:<c-x><c-o>","&completefunc:<c-x><c-n>"]
-" let g:SuperTabClosePreviewOnPopupClose = 1
+ let g:SuperTabDefaultCompletionType = 'context'
+ let g:SuperTabContextDefaultCompletionType = <c-x><c-o>
+ let g:SuperTabDefaultCompletionTypeDiscovery = ["&omnifunc:<c-x><c-o>","&completefunc:<c-x><c-n>"]
+ let g:SuperTabClosePreviewOnPopupClose = 1
 
 " UltiSnips
  let g:UltiSnipsExpandTrigger="<tab>"
@@ -33,8 +33,10 @@ let NERDTreeDirArrows=1 " NERDTree has arrows prefixed to dirs instead of + sign
 set shell=powershell
 set shellcmdflag=-command
 set diffexpr=MyDiff()
-set renderoptions=type:directx
+" This ensures ligatures are displayed correctly
+set renderoptions=type:directx 
 set encoding=utf-8
+set path+=** " Adds support for fuzzy file finding
 set number " turns on line numbers
 set relativenumber " Line numbers are relative to the current line
 set guioptions-=m  "remove menu bar from gvim
