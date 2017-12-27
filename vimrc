@@ -1,29 +1,24 @@
 execute pathogen#infect()
 execute pathogen#helptags()
 
-
 syntax on
 filetype plugin on 
 filetype indent on 
 
-" Load custom settings from source
-
+" Load custom settings from source files
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
-source $HOME/vimfiles/startup/mappings.vim
-source $HOME/vimfiles/startup/settings.vim
+source $HOME\vimfiles\bundle\startup\startup\settings.vim
+source $HOME\vimfiles\bundle\startup\startup\mappings.vim
 
-set nopaste
-
-behave mswin " Tells vim to treat the mouse like a Windows mouse
-
+" Tells vim to treat the mouse like a Windows mouse
+behave mswin 
 
 " Color Scheme
-colorscheme phosphor
+colorscheme default
 
 " PowerShell file AutoCommands
-au BufNewFile,BufRead   *.ps1   set foldmethod=syntax
-
+au BufNewFile,BufRead *.ps1? set foldmethod=syntax
 
 " GUI Auto Commands
 autocmd GUIEnter * NERDTree " Open NERDTree upon open
