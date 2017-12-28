@@ -1,15 +1,13 @@
 execute pathogen#infect()
-execute pathogen#helptags()
 
 syntax on
-filetype plugin on 
-filetype indent on 
+filetype plugin indent on 
 
 " Load custom settings from source files
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
-source $HOME\vimfiles\bundle\startup\startup\settings.vim
-source $HOME\vimfiles\bundle\startup\startup\mappings.vim
+source $HOME\vimfiles\bundle\settings\plugin\settings.vim
+source $HOME\vimfiles\bundle\mappings\plugin\mappings.vim
 
 " Tells vim to treat the mouse like a Windows mouse
 behave mswin 
