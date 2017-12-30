@@ -10,9 +10,6 @@ source $VIMRUNTIME/mswin.vim
 " Tells vim to treat the mouse like a Windows mouse
 behave mswin 
 
-" Color Scheme
-colorscheme peachpuff
-
 " PowerShell file AutoCommands
 au BufNewFile,BufRead *.ps1? set foldmethod=syntax
 
